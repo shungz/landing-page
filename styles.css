@@ -106,7 +106,7 @@
    
      margin: 0px 220px;
      padding:0px 110px;
-     width:0px;
+    
 
      
 }
@@ -766,14 +766,14 @@
 
     .intro-Container {
         max-height: 100%;
-      max-width:100%;
+        max-width:100%;
     }
 
 
      .introImage {
         margin: 0px;
         padding:0px;
-        width: 100%;
+        width: 30px;
         
         
         
@@ -866,7 +866,7 @@
 
     .Hot {
         
-        width: 400px;
+        width: 350px;
         height: 300px;
         margin: 100px 0px ;
        }
@@ -896,8 +896,8 @@
 
        .grid-item {
         display: grid;
-        padding: 50px 40px;
-        margin: 100px -10px;
+        padding: 50px 20px;
+        margin: 100px -0px;
        }
     
        .hot-grid {
