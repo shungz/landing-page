@@ -784,8 +784,9 @@
    .dots {
       
       position: absolute;
-      top: 130px;
-      left: 30px;
+      top: 60px;
+      left: 20px;
+     
 }
 
 .box {
@@ -793,7 +794,7 @@
     background: rgba(255, 255, 255, 0.4);
     width: 500px;
     height: 400px;
-    margin-top: -500px;
+    margin-top: -400px;
 }
 
 .interior {
@@ -826,7 +827,7 @@
     width: 80px;
     height: 80px;
     left: 570px;
-    bottom: -150px;
+    bottom: -70px;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(25px);
 }
