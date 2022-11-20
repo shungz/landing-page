@@ -104,8 +104,8 @@
 
 .introImage {
    
-     margin: 0px 220px;
-     padding:0px 110px;
+     margin: 0px 200px;
+     padding:0px 90px;
        
 }
 
@@ -160,7 +160,7 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 1200px;
+    left: 1157px;
     bottom: -100px;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(25px);
