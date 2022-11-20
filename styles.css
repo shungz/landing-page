@@ -106,9 +106,11 @@
    
      margin: 0px 220px;
      padding:0px 110px;
-    
+       
+}
 
-     
+.introImage-ham {
+    display: none;
 }
 
 .dots {
@@ -675,7 +677,7 @@
 
 
 /* 
-============mobile======================================== */
+============mobile==================================================================================================== */
 
 @media screen and (max-width:900px)  {
 
@@ -771,13 +773,13 @@
 
 
      .introImage {
-        margin: 0px;
-        padding:0px;
-        width: 30px;
-        
-        
-        
+       display: none;
      }
+ 
+    .introImage-ham  {
+        display: flex;
+        
+    }
 
    .dots {
       
@@ -817,6 +819,19 @@
     right: 100px;
     margin-top: -35px;
 }
+
+
+.box-arrow {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 570px;
+    bottom: -150px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(25px);
+}
+
+
 
 
 /* =================label========================== */
@@ -1076,9 +1091,7 @@
   
     width: 250px;
     height: 200px;
-    margin: 30px 90px;
-    
-    
+    margin: 30px 45px;    
 }
 
 .chair {
@@ -1148,9 +1161,9 @@
 
 .testimony-box { 
    position: absolute;
-   height: 800px;
-   width: 800px;
-   margin: 0px  30px;
+   height: 600px;
+   width: 700px;
+   margin: 0px  10px;
 }
 
 
