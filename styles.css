@@ -436,7 +436,6 @@
     .grid-chair {
         
         background-color:#e8f1f1;
-      
         width: 280px;
         height: 200px;
         margin: 30px 80px;
@@ -631,7 +630,7 @@
         position: absolute;
         background-color: rgb(119, 119, 129);
         margin: 10px 50px;
-        width: 1000px;
+        width: 1230px;
         height: 1px;
     }
 
@@ -664,7 +663,10 @@
      .connect {
         color: #fff;
         word-spacing: 30px;
+        cursor: pointer;
+        
      }
+
 
      .faq-grid{
         display: grid;
