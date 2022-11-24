@@ -17,8 +17,10 @@
 }
 
 .logo {
-    padding-right: 30px;
+    padding: 20px 30px;
     color:#3e8e41;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 
@@ -31,8 +33,9 @@
 .menuItems a {
     display: flex;
     text-decoration: none;
-    margin-right: 4rem;
+    margin: 20px 50px;
     color: #152137;
+    font-size: 20px;
     }
 
 .menu {
@@ -47,15 +50,21 @@
 
 .bar {
    display: flex;  
-   margin: 00px 30px;
+   margin: 20px 80px;
   
+}
+
+.glass {
+    padding: 0px 40px;
+    cursor: pointer;
 }
 
 /* ===============dropDown=========================== */
 .dropbtn {
-    background-color: #ffff;
+    background-color: rgb(240, 243, 241);
     border: none;
     padding: 0px 10px ;
+    cursor: pointer;
     
     
 }
@@ -73,7 +82,7 @@
 .dropdown-Content {
     display: none;
     position: absolute;
-    box-shadow: 0px 8px;
+    background-color: rgba(151, 155, 151, 0.836);
 }
 
 .dropdown-Content a {
@@ -115,8 +124,8 @@
 
 .dots {
     position: absolute;
-    top: 90px;
-    left: 100px;
+    top: 100px;
+    left: 110px;
     word-spacing: 20px;
 }
 
@@ -139,6 +148,7 @@
   font-size: 34px;
   padding: 90px 60px;
   color: #244D4D;
+  justify-self: center;
 
 }
 
@@ -151,7 +161,7 @@
     top: 350px;
     line-height: 30px;
     margin: 10px 60px;
-    
+    justify-self: center;
     right: 120px;
     
 }
@@ -185,16 +195,14 @@
 .trust {
     padding: 30px;
     text-align: center;
-
-    
 }
 
 
 .label {
-    text-align: center;
+    justify-content: center;
     display: flex;
     list-style: none;
-    margin: 10px 250px;
+    margin: 10px 0px;
     text-decoration: none;
     
     
@@ -282,34 +290,29 @@
         padding: 20px 0px;
     }
 
-    .learn-box {
+    .learn-btn {
         height: 30px;
         width: 90px;
        float: right;
        margin: -150px 100px;
-       
        background-color:#cdd1cd;
-       box-shadow: 0px 50px 80px ;
+       color: #616266;
+       box-shadow: -15px 50px 90px ;
+       border-radius: 4px;
+       border-color: #e7e9eb;
+       cursor: pointer;
       
     }
 
 
-    .learn {
-        font-weight: 'Manrope';
-        font-style: normal;
-        font-weight: 1px;
-        font-size: 13px;
-        color: #4e504e;
-        padding: 7px 12px;
-    }
-
+    
 
     .About-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 6px 100px;
+        column-gap: 20px;
         
-        gap:  0px 40px; 
-        padding: 6px 100px ;
     }
 
 
@@ -324,9 +327,15 @@
         line-height: 24px;
         color:#244D4D ;
     }
+
+    .grid-abt3 {
+        width: 50px;
+        padding: 0px 45px;
+    }
      
     .grid-abt4{
         height: -1900px;
+        
     
     }
     .big-abt {
@@ -336,8 +345,11 @@
     }
 
      .grid-abt7 {
-          margin: -120px 4px;
+        width: 30px;
+          margin: -120px 45px;
      }
+
+    
 
 
 /* ==========================product & shopping=============================== */
@@ -386,6 +398,7 @@
         position: absolute;
         width: 80px;
         margin: 0px 700px;
+        cursor: pointer;
     }
 
    
@@ -409,12 +422,14 @@
         grid-template-columns: 1fr 1fr 1fr ;
         gap: 95px 0px;
         height:900px;
+        flex-wrap: wrap;
         
      
     }
 
     .chair-shop {
         float: right;
+        margin: 13px 16px;
         color: #a7a8ac;
     }
 
@@ -422,19 +437,20 @@
         
         background-color:#e8f1f1;
       
-        width: 230px;
+        width: 280px;
         height: 200px;
-        margin: 30px 100px;
-        
-        
+        margin: 30px 80px;
     }
 
     .chair {
-        margin: 10px 25px;
+        margin: 10px 70px;
+
     }
 
+    
     .chair-word {
         text-align: center;
+        padding: 15px 0px;
     }
 
     .word-min {
@@ -596,6 +612,7 @@
         width: 110px;
         height: 30px;
         border-radius: 40px ;
+        cursor: pointer;
       
     }
 
@@ -606,7 +623,7 @@
         height: 30px;
         background: #3A5F5F;
         border-radius: 40px;
-
+        cursor: pointer;
     }
 
 
