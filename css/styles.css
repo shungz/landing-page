@@ -117,11 +117,14 @@
 .introImage-ham {
     display: none;
 }
+ .introImage-mobile {
+    display: none;
+ }
 
 .dots {
     position: absolute;
-    top: 100px;
-    left: 110px;
+    top: 90px;
+    left: 30px;
     word-spacing: 20px;
 }
 
@@ -311,7 +314,7 @@
     .About-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 6px 100px;
+        padding: 30px 100px;
         column-gap: 20px;
         
     }
@@ -324,7 +327,7 @@
         font-family: 'Nato san serif';
         font-style: normal;
         font-weight: 400; 
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         color:#244D4D ;
     }
@@ -404,7 +407,7 @@
 
    
     .see-min {
-        padding: 0px 9px;
+        padding: 0px -2px;
         
     }
 

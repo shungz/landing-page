@@ -1,7 +1,7 @@
 /* 
-============mobile==================================================================================================== */
+============mTablet==================================================================================================== */
 
-@media screen and (max-width:900px)  {
+@media screen and (max-width:1200px)  {
 
 
 
@@ -88,19 +88,22 @@
      .introImage {
        display: none;
      }
+
+     .introImage-mobile{
+        display: none;
+     }
  
     .introImage-ham  {
-        display: flex;
-        
+        display: flex; 
     }
 
    .dots {
       
       position: absolute;
       top: 70px;
-      left: 20px;
-     
+      left: 20px;     
 }
+
 
 .box {
     position: relative;
@@ -311,9 +314,7 @@
           height: -1900px;
       }
 
-      .grid-abt5 {
-
-      }
+      
       
       .how {
         margin-top: -90px;
@@ -665,5 +666,884 @@
 
 
 
+
+}
+
+
+
+
+
+
+
+/* =========================BIGGER Mobile========================== */
+@media screen and (max-width:600px)  {
+    
+    .headerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color:rgb(240, 243, 241);;
+        max-width: 100%;
+        height:130px;
+        
+
+    }
+
+
+    .logo {
+        padding: 10px 0px;
+    }
+
+   
+    
+    .icon{
+        display: block;
+         margin: 0px 30px;
+          
+    }
+
+    .menuItems{
+        display: none;
+    }
+
+
+     .glass  {
+        
+        margin: 50px -180px;
+     }
+/* 
+    ===========dropdown=========================== */
+    .dropdown {
+      margin: 30px 50px;
+    }
+    
+    .dropbtn {
+        left: 100px
+    }
+
+    .dropdown-Content {
+        margin: 25px 9px;
+        left: 10px;
+        background-color: rgba(98, 100, 98, 0.836);   
+    }
+
+
+    /* =================intro============================= */
+
+
+    .intro-Container {
+        height: 400px;
+        max-width:100%;
+    }
+
+
+     .introImage {
+       display: none;
+     }
+ 
+    .introImage-ham  {
+        display: none;
+        
+    }
+
+    .introImage-mobile  {
+        display: flex;
+    }
+
+   .dots {
+     display: none;
+   }
+
+    .box {
+    
+        width: 250px;
+        height: 250px;
+        margin-top: -270px;
+    }
+
+    .interior {
+        position: absolute;
+    font-family: 'Nato serif jp';
+    font-style: normal;
+    font-weight: 20px;
+    font-size: 14px;
+    padding: 30px 30px;
+    color: #244D4D;
+
+    }
+
+    .interior-small {
+        font-size: 16px;
+        font-weight: 28px;
+        top: 110px;
+        line-height: 18px;
+        padding: 0px 0px;
+        right: -40px;
+        margin-top: 30px;
+    }
+
+    .interior-small p {
+        width: 200px;
+    }
+
+
+    .box-arrow {
+    display: none;
+    }
+
+
+    /* =================label========================== */
+
+
+
+    .label {
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+
+
+
+ /* ================deal========================= */
+
+ .grid-Container {
+    display: grid;
+     grid-template-columns: 1fr ; 
+     max-width: 100%;
+  }
+
+
+.Hot {
+    
+    width: 350px;
+    height: 200px;
+    margin: 100px 0px ;
+   }
+
+  .hot-Sub {
+    font-family: 'Nato serif jp';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 90px;
+
+     color: #244D4D;
+     padding: 40px 50px;
+  }
+
+  .fire {
+    color: #FDD04A;
+
+
+  }
+ 
+   .online {
+    font-family: 'Nato serif jp';
+    font-style: normal;
+    font-size: 18px;
+    margin: -20px 50px;
+   }
+
+   .grid-item {
+    display: grid;
+    padding: 30px 50px;
+    margin: 10px px;
+    justify-self: center;
+   }
+
+   .hot-grid {
+    position: absolute;
+    display: grid;
+    row-gap: 5px 70px;
+   }
+
+    .Deals {
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+     .grid-item p {
+        margin: 0px 0px;
+     }    
+
+   .shopping{
+    margin: 6px 4px;
+   } 
+
+       /* ==========================about================== */
+
+       .About-Container {
+        max-width: 100%;
+       }
+
+       .us {
+        padding: 80px 110px;
+        color: #244D4D;
+        max-width: 100%;
+        
+        
+      }
+  
+      .At {
+          padding: 20px 0px;
+      }
+  
+      .learn-btn {
+         margin: -70px 100px;
+        
+      }
+  
+  
+    
+  
+  
+      .About-grid{
+          display: grid;
+          grid-template-columns: 1fr;
+          gap:  100px 40px; 
+          padding: 30px 100px ;
+      }
+
+
+      .grid-abt3 {
+        margin: 0px -10px;
+      }
+       
+      .grid-abt4{
+          height: -1900px;
+          bottom: -500px;
+      }
+
+      
+      .grid-abt6 {
+        margin: 40px 0px;
+      }
+  
+       .grid-abt7 {
+            margin: -120px 0px;
+       }
+
+       .grid-abt8 {
+         margin: 30px 0px;
+       }
+
+
+       /* ==============Product and Shopping================== */
+
+  
+
+
+.product-Container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 10px;
+    height: 500px;
+    max-width: 100%;
+   
+}
+
+ .product {
+    position: absolute;
+    left: 30px;
+ }
+
+ .product-Content {
+    display: flex;
+    list-style: none;
+    margin: 100px -16px;
+}
+ .product-choice {
+    display: flex;
+    list-style: none;
+ }
+
+ .product-choice li a {
+    display: flex;
+    text-decoration: none;
+    color: #a7a8ac;
+    padding: 70px 15px; 
+     
+    }
+
+ .product-choice li a:hover {
+    color: #4e504e;
+ }
+   
+
+.see {
+    position: absolute;
+    width: 80px;
+    margin: 190px 100px;
+}
+
+
+.chair-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 180px 0px;
+    height:3200px;
+}
+
+
+
+  /* ==================Feedback================== */
+
+
+
+  .feedback-Container {
+    position: relative;
+    height: 1800px;
+    max-width: 100%; 
+ }
+
+.feedback-way{
+    position: relative;
+    left: 20px;
+    top: 100px;
+    bottom: 100px;
+    width: 400px;
+    height: 1500px;
+    border-radius: 12px ;
+    background: #F4F6F6;
+}
+
+
+.feedback {
+    text-align: center;
+    padding: 60px 70px;
+    
+   
+}
+
+
+.testimony-box { 
+   position: absolute;
+   height: 600px;
+   width: 350px;
+   margin: 0px  10px;
+}
+
+.testimony-img  {
+    padding: 0px 20px;
+    width: 300px;
+}
+
+
+
+
+.larry-box {
+   max-width: 100%;
+    height:400px;
+    margin: 100px  30px;
+} 
+
+
+/* ===============Get Started & FAQ================== */
+
+
+.started-Container-grid {
+    background-color: #244D4D;
+    height: 1200px;
+    max-width: 100%;
+   }
+
+    .button {
+        float: right;
+        margin: 60px 130px;
+        padding: 0px 90px;
+        
+
+    }
+
+
+    
+
+
+    .line-box {
+        position: absolute;
+        background-color: rgb(119, 119, 129);
+        margin: 10px 50px;
+        width: 300px;
+        height: 1px;
+    }
+
+    .funish {
+        font-family: 'Noto Serif JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 37px;
+        color: #FFFFFF;
+        width: 200px;
+
+    }
+
+    .funish-box {
+         width: 250px;
+         height: 250px;
+         margin: 180px 50px;
+    }
+
+     .funish-min {
+        font-family: 'Google Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #EEEEEE;
+        padding: 30px 0px ;
+     }
+
+    
+
+     .faq-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+        margin: -150px 0px;
+        gap: 0px;
+        color: #fff;
+    }
+
+}
+
+
+
+
+
+
+/* ==================================================SMALLER Mobile==================================================== */
+@media screen and (max-width:300px)  {
+    
+    .headerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color:rgb(240, 243, 241);
+        max-width: 100%;
+        height:100px;
+        
+
+    }
+    .bar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 30vh;
+    }
+
+
+    .logo {
+        padding: 10px 0px;
+    }
+
+   
+    
+    .icon{
+        display: block;
+         margin: 0px 30px;
+          
+    }
+
+    .menuItems{
+        display: none;
+    }
+
+
+     .glass  {
+        
+        margin: 50px -180px;
+     }
+/* 
+    ===========dropdown=========================== */
+    .dropdown {
+      margin: 30px 50px;
+    }
+    
+    .dropbtn {
+        left: 100px
+    }
+
+    .dropdown-Content {
+        margin: 25px 9px;
+        left: 10px;
+        background-color: rgba(98, 100, 98, 0.836);   
+    }
+
+
+    /* =================intro============================= */
+
+
+    .intro-Container {
+        height: 400px;
+        max-width:100%;
+    }
+
+
+     .introImage {
+       display: none;
+     }
+ 
+    .introImage-ham  {
+        display: none;
+        
+    }
+
+    .introImage-mobile  {
+        display: flex;
+    }
+
+   .dots {
+     display: none;
+   }
+
+    .box {
+    
+        width: 250px;
+        height: 250px;
+        margin-top: -270px;
+    }
+
+    .interior {
+        position: absolute;
+    font-family: 'Nato serif jp';
+    font-style: normal;
+    font-weight: 20px;
+    font-size: 14px;
+    padding: 30px 30px;
+    color: #244D4D;
+
+    }
+
+    .interior-small {
+        font-size: 16px;
+        font-weight: 28px;
+        top: 110px;
+        line-height: 18px;
+        padding: 0px 0px;
+        right: -40px;
+        margin-top: 30px;
+    }
+
+    .interior-small p {
+        width: 200px;
+    }
+
+
+    .box-arrow {
+    display: none;
+    }
+
+
+    /* =================label========================== */
+
+
+
+    .label {
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+
+
+
+ /* ================deal========================= */
+
+ .grid-Container {
+    display: grid;
+     grid-template-columns: 1fr ; 
+     max-width: 100%;
+  }
+
+
+.Hot {
+    
+    width: 350px;
+    height: 200px;
+    margin: 100px 0px ;
+   }
+
+  .hot-Sub {
+    font-family: 'Nato serif jp';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 90px;
+
+     color: #244D4D;
+     padding: 40px 50px;
+  }
+
+  .fire {
+    color: #FDD04A;
+
+
+  }
+ 
+   .online {
+    font-family: 'Nato serif jp';
+    font-style: normal;
+    font-size: 18px;
+    margin: -20px 50px;
+   }
+
+   .grid-item {
+    display: grid;
+    padding: 30px 50px;
+    margin: 10px px;
+    justify-self: center;
+   }
+
+   .hot-grid {
+    position: absolute;
+    display: grid;
+    row-gap: 5px 70px;
+   }
+
+    .Deals {
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+     .grid-item p {
+        margin: 0px 0px;
+     }    
+
+   .shopping{
+    margin: 6px 4px;
+   } 
+
+       /* ==========================about================== */
+
+       .About-Container {
+        max-width: 100%;
+       }
+
+       .us {
+        padding: 80px 110px;
+        color: #244D4D;
+        max-width: 100%;
+        
+        
+      }
+  
+      .At {
+          padding: 20px 0px;
+      }
+  
+      .learn-btn {
+         margin: -70px 100px;
+        
+      }
+  
+  
+    
+  
+  
+      .About-grid{
+          display: grid;
+          grid-template-columns: 1fr;
+          gap:  100px 40px; 
+          padding: 30px 100px ;
+      }
+
+
+      .grid-abt3 {
+        margin: 0px -10px;
+      }
+       
+      .grid-abt4{
+          height: -1900px;
+          bottom: -500px;
+      }
+
+      
+      .grid-abt6 {
+        margin: 40px 0px;
+      }
+  
+       .grid-abt7 {
+            margin: -120px 0px;
+       }
+
+       .grid-abt8 {
+         margin: 30px 0px;
+       }
+
+
+       /* ==============Product and Shopping================== */
+
+  
+
+
+.product-Container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 10px;
+    height: 500px;
+    max-width: 100%;
+   
+}
+
+ .product {
+    position: absolute;
+    left: 30px;
+ }
+
+ .product-Content {
+    display: flex;
+    list-style: none;
+    margin: 100px -16px;
+}
+ .product-choice {
+    display: flex;
+    list-style: none;
+ }
+
+ .product-choice li a {
+    display: flex;
+    text-decoration: none;
+    color: #a7a8ac;
+    padding: 70px 15px; 
+     
+    }
+
+ .product-choice li a:hover {
+    color: #4e504e;
+ }
+   
+
+.see {
+    position: absolute;
+    width: 80px;
+    margin: 190px 100px;
+}
+
+
+.chair-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 180px 0px;
+    height:3200px;
+}
+
+
+
+  /* ==================Feedback================== */
+
+
+
+  .feedback-Container {
+    position: relative;
+    height: 1800px;
+    max-width: 100%; 
+ }
+
+.feedback-way{
+    position: relative;
+    left: 20px;
+    top: 100px;
+    bottom: 100px;
+    width: 300px;
+    height: 1500px;
+    border-radius: 12px ;
+    background: #F4F6F6;
+}
+
+
+.feedback {
+    text-align: center;
+    padding: 60px 70px;
+    
+   
+}
+
+
+.testimony-box { 
+   position: absolute;
+   height: 600px;
+   width: 350px;
+   margin: 0px  10px;
+}
+
+.testimony-img  {
+    padding: 0px 20px;
+}
+
+
+
+
+.larry-box {
+   max-width: 100%;
+    height:400px;
+    margin: 100px  30px;
+} 
+
+
+/* ===============Get Started & FAQ================== */
+
+
+.started-Container-grid {
+    background-color: #244D4D;
+    height: 1200px;
+    max-width: 100%;
+   }
+
+    .button {
+        float: right;
+        margin: 60px 130px;
+        padding: 0px 90px;
+        
+
+    }
+
+
+    
+
+
+    .line-box {
+        position: absolute;
+        background-color: rgb(119, 119, 129);
+        margin: 10px 50px;
+        width: 300px;
+        height: 1px;
+    }
+
+    .funish {
+        font-family: 'Noto Serif JP';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 37px;
+        color: #FFFFFF;
+        width: 200px;
+
+    }
+
+    .funish-box {
+         width: 250px;
+         height: 250px;
+         margin: 180px 50px;
+    }
+
+     .funish-min {
+        font-family: 'Google Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #EEEEEE;
+        padding: 30px 0px ;
+     }
+
+    
+
+     .faq-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: absolute;
+        margin: -150px 0px;
+        gap: 0px;
+        color: #fff;
+    }
 
 }
